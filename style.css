@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'PPG' ;
+    src: url('Fonteses/AnalogScriptClean_PERSONAL_USE_ONLY.otf');
+}
+/* wallpaperbetter.com_7680x4320.jpg */
+body{
+    background-image: url('https://wallpapercave.com/wp/wp1875431.gif');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+:root{
+    --h: 25px ;
+}
+main div {
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+}
+section{
+    margin-right: 60px;
+}
+#Florzinhatextu{
+    display: inline-block;
+    width: 400px ;
+    
+}
+#Lindinhatextu {
+    display: inline-block;
+    width: 400px;
+    
+
+}
+#Docinhotextu{
+    display: inline-block;
+    width: 400px;
+    
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 280px;
+}
+
+div#Mugago > a {
+    width: 65px;
+    height: 65px;
+    margin-right: 140px;
+    margin-top: -10px;
+}
+div#Mugago > a:hover {
+    transform: translate(15px,40px);
+    transition-delay: 0.3s;
+    transition-duration: 0.9s;
+}
+div#Mugago > a img {
+    border-radius: 50%;
+    box-shadow: -5px 3px 5px black;
+    width: 65px;
+}
+
+
+main {
+    width: 400px;
+}
+main h1 {
+    font-family: 'PPG';
+    font-size: 45px;
+    color: #fd488e;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+main p {
+    text-align: center;
+    color: #f7e337;
+    font-weight: bolder;
+    text-shadow: 0PX 0PX 7PX rgb(206, 18, 18);
+}

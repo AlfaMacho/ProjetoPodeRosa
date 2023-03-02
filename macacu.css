@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'PPG' ;
+    src: url('Fonteses/AnalogScriptClean_PERSONAL_USE_ONLY.otf');
+}
+body{
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(133, 206, 37);
+    background-image: url("mucaco.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+header > div#botao > a > img:hover{
+    transform: translate(15px,40px);
+    transition-delay: 0.3s;
+    transition-duration: 0.9s;
+}
+header > div#botao > a > img{
+    width: 100px ;
+    transition-delay: 0.3s;
+    transition-duration: 0.9s;
+}
+main div#texto{
+    width: 1000px ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+main h1{
+    font-family: 'PPG';
+    color: rgb(77, 6, 136);
+}
+main p{
+    color: #000000;
+    font-size: larger;
+    width: 600px ;
+    margin: 5px 0px;
+}
